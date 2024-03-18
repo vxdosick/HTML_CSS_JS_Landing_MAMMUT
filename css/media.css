@@ -1,0 +1,101 @@
+@media (max-width:1300px) {
+    .bestsellers__title {
+        font-size: 25px;
+    }
+}
+@media (max-width:1200px) {
+    .container__general {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .adventure--general {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .adventure__title--general {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+@media (max-width:1199px) {
+    .adventure__photo--general div {
+        flex-wrap: wrap;
+    }
+    .adventure__photo--general {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width:950px) {
+    .bestsellers__picture {
+        width: 60%;
+    }
+    .bestsellers__content {
+        width: 40%;
+    }
+}
+@media (max-width:850px) {
+    .clothes__elem a {
+        font-size: 9px;
+    }
+    .clothes__item {
+        align-items: start;
+    }
+    .footer__header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__logo {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width:700px) {
+    .bestsellers__picture {
+        width: 50%;
+    }
+    .bestsellers__content {
+        width: 50%;
+    }
+}
+@media (max-width:600px) {
+    .general__fs--down {
+        font-size: 40px;
+    }
+    .people__content {
+        top: 28px;
+        left: 18px;
+    }
+    .people__subtitle {
+        margin-left: 0px;
+    }
+    .people__title {
+        margin-bottom: 16px;
+    }
+    .bestsellers__picture {
+        width: 25%;
+    }
+    .bestsellers__content {
+        width: 75%;
+    }
+    .clothes__title {
+        font-size: 20px;
+    }
+    .mammut__grid {
+        grid-template-columns: repeat(3, minmax(120px, 1fr));
+    }
+    .footer__menu {
+        gap: 20px;
+    }
+    .footer__header {
+        padding-bottom: 20px;
+    }
+}
+@media (max-width:450px) {
+    .mammut__grid {
+        grid-template-columns: repeat(2, minmax(120px, 1fr));
+    }
+    .footer__footer {
+        flex-wrap: wrap;
+    }
+}
